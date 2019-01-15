@@ -1,0 +1,41 @@
+// Author- Alexander Peters
+// This document is to help me remember some useful c, c++, and terminal commands.
+
+
+USEFUL COMMANDS:
+
+Make Directory:
+mkdir
+
+Move Directory:
+mv source dest
+-or-
+mv /path/to/source /path/to/dest
+
+Change Directory:
+cd
+
+View Directory:
+ls
+
+Clear Screen:
+clear
+
+Exit Terminal:
+exit
+
+Create a new Document:
+vim document_name.file_extension
+
+Where am I at/ what directory am I in:
+pwd
+
+Copy File Command:
+cp file_original.cpp file_new.cpp
+
+USEFUL C++ Commands:
+
+USEFUL Git Commands:
+
+USEFUL VIM Commands:
+
