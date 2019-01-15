@@ -34,6 +34,8 @@ Copy File Command:
 cp file_original.cpp file_new.cpp
 
 USEFUL C++ Commands:
+g++ -o compiled_program_name program_literal.cpp // Compile
+./compiled_program                               // Run
 
 USEFUL Git Commands:
 
