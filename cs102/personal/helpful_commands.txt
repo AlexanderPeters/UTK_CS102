@@ -38,6 +38,11 @@ g++ -o compiled_program_name program_literal.cpp // Compile
 ./compiled_program                               // Run
 
 USEFUL Git Commands:
+git add --all
+git commit
 
 USEFUL VIM Commands:
+"esc" key to exit insert mode
+"i" key to insert
+:wq to quit with save
 
