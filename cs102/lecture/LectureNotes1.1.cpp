@@ -1,20 +1,21 @@
 // Alexander Peters
-// Lecture 1.1
+// Lecture Notes 1.1
 // 01/15/19
 
 #include <iostream>
 using namespace std;
 
 int main() {
-	char a;
-	int b;
-	float c;
+	string first_name;
+	string last_name;
 
-	cin >> a >> b >> c;
+	cout << "Enter you first and last name: ";
+	cin >> first_name;
+	cin >> last_name;
 
-	cout << a << '\n'
-		 << b << '\n'
-		 << c << '\n';
+	cout << "Your name is " << first_name
+		 << " " << last_name << '\n';
 
 	return 0;
-}
+}	
+
