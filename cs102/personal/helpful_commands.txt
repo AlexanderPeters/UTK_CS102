@@ -24,6 +24,9 @@ clear
 Exit Terminal:
 exit
 
+Terminate Program in Terminal:
+CTRL + Z
+
 Create a new Document:
 vim document_name.file_extension
 
