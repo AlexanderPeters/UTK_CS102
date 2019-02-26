@@ -14,7 +14,7 @@ int main() {
 		cout << "Enter command: ";
 		cin >> command;
 		if(command != "car" && command != "truck" && command != "done") {
-			cout << "Unknown command. " + '\n';
+			cout << "Unknown command. \n";
 			command = "";
 		}	
 	}

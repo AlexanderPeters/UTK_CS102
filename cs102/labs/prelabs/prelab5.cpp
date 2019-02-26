@@ -12,38 +12,27 @@ int main() {
 	int numberSeed = 0;
 	int randomArray [25];
 
-	//This doesn't work
-	//cout << "Enter a seed number: ";
-	//while(!(cin >> numberSeed)) {
-	//	cin.clear();
-	//	cin.ignore(numeric_limits<streamsize>::max(), '\n');
-	//	cout << "Enter a different number: ";
-	//}//
-	
-	//But this does?
-	int number = 0;
-
-	cout << "Enter a number: ";
-	while(!(cin >> number)) {
+	cout << "Enter a seed number: ";
+	while(!(cin >> numberSeed)) {
 		cin.clear();
 		cin.ignore(numeric_limits<streamsize>::max(), '\n');
-		cout << "Enter a number: ";
+		cout << "Enter a different number: ";
 	}
-
-	srand(number);
+	
+	srand(numberSeed);
 
 	int i = 0;
-	while(i < 24) { 
+	while(i < 25) { 
 		randomArray[i] = rand();
 		i++;
 	}
 
-//	int sum = 0;
-//	for(int j = 0; j < 24; j++) {
-///		sum += randomArray[j];
-//	}
-//
-//	cout << "Sum of array = " + sum + '.';
+	int sum = 0;
+	for(int j = 0; j < 24; j++) {
+		sum += randomArray[j];
+	}
+
+	cout << "Sum of array = " << sum << '.';
 	return 0;
 }
 
