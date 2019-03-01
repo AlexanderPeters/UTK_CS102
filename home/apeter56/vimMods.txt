@@ -1,0 +1,8 @@
+Completed Vim Mods
+
+Auto Save
+Line Numbers
+Text Blinking
+Mouse mode
+ColorScheme -Phase1
+---Autocomplete TODO
